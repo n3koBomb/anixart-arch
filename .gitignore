@@ -1,0 +1,9 @@
+/target/
+*.pkg.tar.*
+*.tar.gz
+/pkg/
+/srcpkg/
+.DS_Store
+packaging/
+scripts/
+myNewIdeas.txt

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.anixart.Anixart</id>
+  <name>Anixart Arch</name>
+  <summary>Unofficial native Linux desktop client for Anixart</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <description>
+    <p>Anixart is an independent Linux desktop client implemented from scratch. It does not contain or execute the Android APK and is not affiliated with Anixart.</p>
+  </description>
+  <launchable type="desktop-id">io.github.anixart.Anixart.desktop</launchable>
+  <provides>
+    <binary>anixart</binary>
+  </provides>
+  <categories>
+    <category>AudioVideo</category>
+    <category>Video</category>
+  </categories>
+  <releases>
+    <release version="0.4.1" date="2026-08-08">
+      <description><p>Consolidates Home, release details and playback selection into one-window navigation, fixes Discover wrapper IDs, and constrains poster/detail artwork for desktop layouts.</p></description>
+    </release>
+    <release version="0.3.4" date="2026-08-08">
+      <description><p>Defaults GTK to the OpenGL renderer on Wayland when no renderer override is set, fixing costly Vulkan-to-GL DMABUF fallback during fractional-scale fullscreen provider video.</p></description>
+    </release>
+    <release version="0.3.3" date="2026-08-08">
+      <description><p>Adds WebKit hardware acceleration, GTK GraphicsOffload hints and VA-API media diagnostics.</p></description>
+    </release>
+    <release version="0.3.2" date="2026-08-08">
+      <description><p>Fixes gtk4/webkit6 settings-method ambiguity during compilation.</p></description>
+    </release>
+    <release version="0.3.1" date="2026-08-08">
+      <description><p>Improves embedded-provider playback with MediaSource, WebKit media compatibility settings, a real base URI and diagnostics.</p></description>
+    </release>
+    <release version="0.3.0" date="2026-08-08">
+      <description><p>Adds native WebKitGTK iframe playback and automatic mpv/provider routing.</p></description>
+    </release>
+    <release version="0.2.0" date="2026-08-08">
+      <description><p>Adds voiceover, player-source and episode navigation with mpv/browser playback.</p></description>
+    </release>
+    <release version="0.1.0" date="2026-08-07">
+      <description><p>Initial native GTK4 proof of concept.</p></description>
+    </release>
+  </releases>
+</component>
