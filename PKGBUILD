@@ -1,4 +1,4 @@
-# Maintainer: Nikas <CHANGE-ME>
+# Maintainer: Nikas <n3koBomb>
 pkgname=anixart-arch
 pkgver=0.4.1
 pkgrel=1
@@ -32,7 +32,7 @@ build() {
 check() {
   cd "$pkgname-$pkgver"
   _ring_lto_compat
-  cargo test --release
+  cargo test --release --locked
 }
 
 package() {

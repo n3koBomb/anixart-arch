@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.anixart.Anixart</id>
+  <id>io.github.anixartarch.AnixartArch</id>
   <name>Anixart Arch</name>
   <summary>Unofficial native Linux desktop client for Anixart</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -8,7 +8,7 @@
   <description>
     <p>Anixart is an independent Linux desktop client implemented from scratch. It does not contain or execute the Android APK and is not affiliated with Anixart.</p>
   </description>
-  <launchable type="desktop-id">io.github.anixart.Anixart.desktop</launchable>
+  <launchable type="desktop-id">io.github.anixartarch.AnixartArch.desktop</launchable>
   <provides>
     <binary>anixart</binary>
   </provides>
