@@ -14,7 +14,7 @@ optdepends=('yt-dlp: expand mpv support for compatible non-direct URLs'
             'libva-mesa-driver: VA-API backend for AMD/Mesa graphics'
             'libva-utils: vainfo command for hardware video diagnostics')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('PUT_NEW_HASH_HERE')
+sha256sums=('8e5f7791610dd5f4e3d3c0fb5fef14d68b1847146aec48feb37f7acba1ae647d')
 
 _ring_lto_compat() {
   # ring contains C/ASM objects. Arch/CachyOS LTO + lld can otherwise leave
